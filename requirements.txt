@@ -1,0 +1,36 @@
+# requirements.txt
+# ─────────────────────────────────────────────────────────────
+# SolarStore AI — Python Dependencies
+# Install with: pip install -r requirements.txt
+# ─────────────────────────────────────────────────────────────
+
+# ── Data & Science ────────────────────────────────────────────
+pandas>=2.0.0
+numpy>=1.24.0
+scipy>=1.11.0
+
+# ── API & Web ────────────────────────────────────────────────
+requests>=2.31.0
+python-dotenv>=1.0.0       # reads .env files
+
+# ── Machine Learning ─────────────────────────────────────────
+scikit-learn>=1.3.0
+xgboost>=2.0.0
+
+# ── Deep Learning ────────────────────────────────────────────
+torch>=2.0.0               # PyTorch (battery DNN)
+tensorflow>=2.13.0         # Keras LSTM (solar forecasting)
+
+# ── Visualization ────────────────────────────────────────────
+matplotlib>=3.7.0
+seaborn>=0.12.0
+plotly>=5.17.0
+folium>=0.14.0             # geospatial maps
+
+# ── Streamlit App ────────────────────────────────────────────
+streamlit>=1.28.0
+streamlit-folium>=0.15.0   # embeds Folium maps in Streamlit
+
+# ── Utilities ────────────────────────────────────────────────
+joblib>=1.3.0              # model serialization
+tqdm>=4.66.0               # progress bars
